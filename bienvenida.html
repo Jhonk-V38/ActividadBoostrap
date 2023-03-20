@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida</title>
+    <div id="bienvenida"></div>
+
+    <script src="js/SaltosPng.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nuestro Sitio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Más Opciones
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Información</a></li>
+                <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Actividad Boostrap</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+      
+
+    <div class="container text-center">
+      <div class="row" style="background-color: transparent;">
+          <div class="Encabezado"><h1 class="text" style="font-family:  Georgia">Le damos la Bienvenida</h1></div>
+      </div>
+
+        
+
+            <div class="contenido col-5 col-12 m-auto" style="background-color: transparent;">
+                <br>
+                <h4>Operaciones Disponobles</h4>
+                <p>Aqui podras Calcular algunas de las cuestiones a que necesitas!!!...</p>
+            
+                
+                <div class="flex-row row">
+                    <div class="col-md-6 col-12 m-auto">
+                      <br>
+                      <img width="25%" height="25%" src="IMG/c.png">
+                      <button type="button" class="btn btn-success" onclick="EntrarCal()">Calculadora</button>
+                      <br><br>
+                      <img width="25%" height="25%" src="IMG/imc.png">
+                      <button type="button" class="btn btn-success" onclick="EntrarIMC()">Calcular IMC</button>
+                    
+                    </div>
+
+                    <div class="col-md-6 col-12 m-auto">
+                        
+                        <img width="25%" height="25%" src="IMG/fi.png">
+                        <button type="button" class="btn btn-success" onclick="EntrarArea()">Calcular Areas</button>
+                        <br><br>
+                        <img width="25%" height="25%" src="IMG/pro.png">
+                        <button type="button" class="btn btn-success" onclick="EntrarProp()">Calcular Propina</button>
+                    </div>
+                </div>
+                <br><br>
+                <p1>Pagina de Binvenida y Menú con estilos de Boostrap</p1><br><br>
+            </div>
+       
+
+
+    <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="IMG/fond.jpg" class="w-100" alt="...">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0">Columns with stretched link</h5>
+          <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+          <a href="#" class="stretched-link">Go somewhere</a>
+        </div>
+      </div>
+
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+</body>
+</html>
